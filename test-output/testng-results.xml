@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="87720" started-at="2019-04-06T07:22:59Z" finished-at="2019-04-06T07:24:27Z">
+  <suite name="Selenium Coding challenge Part1- Naveen Automation Labs" duration-ms="114868" started-at="2019-04-06T08:17:34Z" finished-at="2019-04-06T08:19:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="87720" started-at="2019-04-06T07:22:59Z" finished-at="2019-04-06T07:24:27Z">
+    <test name="Selenium Coding challenge Part1- Naveen Automation Labs" duration-ms="114868" started-at="2019-04-06T08:17:34Z" finished-at="2019-04-06T08:19:29Z">
       <class name="Assignment.Zoopla.Test.NewTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Assignment.Zoopla.Test.NewTest@cb5822]" name="beforeClass" is-config="true" duration-ms="28590" started-at="2019-04-06T07:22:59Z" finished-at="2019-04-06T07:23:28Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Assignment.Zoopla.Test.NewTest@cb5822]" name="beforeClass" is-config="true" duration-ms="53714" started-at="2019-04-06T08:17:34Z" finished-at="2019-04-06T08:18:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Assignment.Zoopla.Test.NewTest@cb5822]" name="f" duration-ms="57694" started-at="2019-04-06T07:23:28Z" finished-at="2019-04-06T07:24:26Z">
+        <test-method status="PASS" signature="valiDateAgentName()[pri:0, instance:Assignment.Zoopla.Test.NewTest@cb5822]" name="valiDateAgentName" duration-ms="59963" started-at="2019-04-06T08:18:28Z" finished-at="2019-04-06T08:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Assignment.Zoopla.Test.NewTest@cb5822]" name="afterClass" is-config="true" duration-ms="1393" started-at="2019-04-06T07:24:26Z" finished-at="2019-04-06T07:24:27Z">
+        </test-method> <!-- valiDateAgentName -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Assignment.Zoopla.Test.NewTest@cb5822]" name="afterClass" is-config="true" duration-ms="1144" started-at="2019-04-06T08:19:28Z" finished-at="2019-04-06T08:19:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- Assignment.Zoopla.Test.NewTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Selenium Coding challenge Part1- Naveen Automation Labs -->
+  </suite> <!-- Selenium Coding challenge Part1- Naveen Automation Labs -->
 </testng-results>

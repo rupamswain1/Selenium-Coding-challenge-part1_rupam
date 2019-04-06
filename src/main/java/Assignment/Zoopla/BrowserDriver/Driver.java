@@ -16,12 +16,12 @@ public class Driver extends ReadPropertyFile
 		
 		try
 		{
-			ReadPropertyFile read =new ReadPropertyFile();
+			
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src//main//resources//chromedriver.exe");
 			driver=new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			driver.get(read.readProperty("url"));
+			driver.get(ReadPropertyFile.readProperty("url"));
 			
 		}
 		catch(Exception e)
@@ -34,7 +34,12 @@ public class Driver extends ReadPropertyFile
 	
 	public static void initialize()
 	{
-		Driver d=new Driver();
+		new Driver();
+	}
+	
+	public static void quit()
+	{
+		driver.quit();
 	}
 	
 }

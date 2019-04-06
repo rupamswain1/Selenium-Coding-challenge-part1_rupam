@@ -38,7 +38,7 @@ public class NewTest {
 
   @AfterClass
   public void afterClass() {
-	  Driver.driver.quit();
+	  Driver.quit();
   }
 
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium Coding challenge Part1- Naveen Automation Labs]">
+  <test thread-count="5" name="Selenium Coding challenge Part1- Naveen Automation Labs(failed)">
+    <classes>
+      <class name="Assignment.Zoopla.Test.NewTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="valiDateAgentName"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Assignment.Zoopla.Test.NewTest -->
+    </classes>
+  </test> <!-- Selenium Coding challenge Part1- Naveen Automation Labs(failed) -->
+</suite> <!-- Failed suite [Selenium Coding challenge Part1- Naveen Automation Labs] -->

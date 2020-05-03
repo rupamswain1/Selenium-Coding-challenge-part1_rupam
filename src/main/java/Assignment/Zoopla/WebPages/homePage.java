@@ -10,11 +10,15 @@ import Assignment.Zoopla.ReadProperty.ReadPropertyFile;
 public class homePage {
 	
 	//Object Declaration of required elements in Page
+	
+	@FindBy(xpath="//button[@class='ui-button-primary ui-cookie-accept-all-medium-large']")
+	WebElement acceptCookieButton;
 	@FindBy(xpath="//input[@id='search-input-location']")
 	WebElement locationSearchBox;
 	
 	@FindBy(xpath="//button[@id='search-submit']")
 	WebElement searchButton;
+	
 	
 	public homePage()
 	{
@@ -25,6 +29,7 @@ public class homePage {
 	public PropertyForSale searchLocation()
 	{
 		String location=ReadPropertyFile.readProperty("Location");
+		acceptCookieButton.click();
 		locationSearchBox.sendKeys(location);
 		searchButton.click();
 		

@@ -6,7 +6,7 @@
       <class name="Assignment.Zoopla.Test.NewTest">
         <methods>
           <include name="beforeClass"/>
-          <include name="f"/>
+          <include name="valiDateAgentName"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- Assignment.Zoopla.Test.NewTest -->

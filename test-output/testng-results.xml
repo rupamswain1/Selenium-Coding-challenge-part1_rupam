@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Selenium Coding challenge Part1- Naveen Automation Labs" duration-ms="114868" started-at="2019-04-06T08:17:34Z" finished-at="2019-04-06T08:19:29Z">
+  <suite name="Selenium Coding challenge Part1- Naveen Automation Labs" duration-ms="48758" started-at="2020-05-03T08:26:16Z" finished-at="2020-05-03T08:27:04Z">
     <groups>
     </groups>
-    <test name="Selenium Coding challenge Part1- Naveen Automation Labs" duration-ms="114868" started-at="2019-04-06T08:17:34Z" finished-at="2019-04-06T08:19:29Z">
+    <test name="Selenium Coding challenge Part1- Naveen Automation Labs" duration-ms="48758" started-at="2020-05-03T08:26:16Z" finished-at="2020-05-03T08:27:04Z">
       <class name="Assignment.Zoopla.Test.NewTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Assignment.Zoopla.Test.NewTest@cb5822]" name="beforeClass" is-config="true" duration-ms="53714" started-at="2019-04-06T08:17:34Z" finished-at="2019-04-06T08:18:28Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Assignment.Zoopla.Test.NewTest@39aeed2f]" name="beforeClass" is-config="true" duration-ms="20666" started-at="2020-05-03T08:26:16Z" finished-at="2020-05-03T08:26:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="valiDateAgentName()[pri:0, instance:Assignment.Zoopla.Test.NewTest@cb5822]" name="valiDateAgentName" duration-ms="59963" started-at="2019-04-06T08:18:28Z" finished-at="2019-04-06T08:19:28Z">
+        <test-method status="PASS" signature="valiDateAgentName()[pri:0, instance:Assignment.Zoopla.Test.NewTest@39aeed2f]" name="valiDateAgentName" duration-ms="28054" started-at="2020-05-03T08:26:36Z" finished-at="2020-05-03T08:27:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valiDateAgentName -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Assignment.Zoopla.Test.NewTest@cb5822]" name="afterClass" is-config="true" duration-ms="1144" started-at="2019-04-06T08:19:28Z" finished-at="2019-04-06T08:19:29Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Assignment.Zoopla.Test.NewTest@39aeed2f]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-03T08:27:04Z" finished-at="2020-05-03T08:27:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
